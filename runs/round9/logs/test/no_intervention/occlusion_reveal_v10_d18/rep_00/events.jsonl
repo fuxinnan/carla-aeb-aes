@@ -1,0 +1,4 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "occlusion_reveal", "instance": "v10_d18", "seed": 84, "split": "test", "ego": {"s_m": 8.0, "speed_mps": 10.0}, "target": {"gap_m": 18.0}, "trigger": {"distance_m": 18.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "collision", "sim_time_s": 1.55, "detail": {"frame": 31, "relative_speed_mps": 10.036059983878136, "detector": "oriented_box"}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "blocker_01", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 1.25, "detail": {"track_id": "ped_hidden", "frame": 25}}

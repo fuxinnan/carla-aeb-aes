@@ -1,0 +1,20 @@
+{
+  "run_id": "both_unavoidable_v11_d26",
+  "scene_id": "both_unavoidable_v11_d26",
+  "strategy_name": "state_machine",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 1.0612499999999336,
+  "min_ttc_s": 1.0757843137254917,
+  "first_trigger_time_s": 0.0,
+  "aeb_first_trigger_time_s": 0.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 5.9999999999999964,
+  "speed_drop_mps": 10.900000000000007,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 0.09999999999999334,
+  "duration_s": 5.8500000000000005,
+  "frame_count": 118,
+  "invalid_frame_count": 1,
+  "brake_delay_frames": 1
+}

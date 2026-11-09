@@ -1,0 +1,27 @@
+# 第 8 轮。路径跟踪和附着圆。不改 AEB 阈值。
+# 跟踪误差门槛在跑控制器之前按弯道几何定，不拿结果回头放宽。
+version: round8-0
+pursuit:
+  # 前视距离 = 增益乘车速，再夹到 3~8 m。8 m/s 时约 3.6 m。
+  lookahead_gain_s: 0.45
+  lookahead_min_m: 3.0
+  lookahead_max_m: 8.0
+  # 与第 7 轮同一条横向加速度上限。
+  max_lat_accel_mps2: 4.0
+  # 0.40 rad/s。10 m/s 时对应 4.0 m/s²，和横向加速度上限对齐；低速时由它先卡住。
+  max_yaw_rate_radps: 0.40
+  max_steer_rad: 0.52
+  max_steer_rate_radps: 0.70
+  wheelbase_m: 2.85
+friction:
+  # 干燥铺装大约 0.9，紧急制动同时转向留出余量，取 0.72。上限 = 0.72 * 9.81 = 7.06 m/s²。
+  mu: 0.72
+  g_mps2: 9.81
+tracking:
+  # 半径 40 m、前视约 3.6 m 时，纯追踪的稳态横向误差大约 ld²/(2R) = 0.16 m。
+  # 门槛取 0.35 m，能盖住起步修正，接不住跟踪反向或发散。
+  max_abs_error_m: 0.35
+  arc_radius_m: 40.0
+  arc_length_m: 50.0
+  speed_mps: 8.0
+  initial_offset_m: 0.10

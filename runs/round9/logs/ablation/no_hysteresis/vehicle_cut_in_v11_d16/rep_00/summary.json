@@ -1,0 +1,20 @@
+{
+  "run_id": "vehicle_cut_in_v11_d16",
+  "scene_id": "vehicle_cut_in_v11_d16",
+  "strategy_name": "state_machine",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 1.9800000000005014,
+  "min_ttc_s": 1.4365384615384293,
+  "first_trigger_time_s": 2.25,
+  "aeb_first_trigger_time_s": 2.25,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 3.500000000000014,
+  "speed_drop_mps": 2.8000000000000096,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 8.19999999999999,
+  "duration_s": 8.0,
+  "frame_count": 161,
+  "invalid_frame_count": 151,
+  "brake_delay_frames": 1
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "both_unavoidable_v8_d16",
+  "scene_id": "both_unavoidable_v8_d16",
+  "strategy_name": "state_machine",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 1.3362499999999855,
+  "min_ttc_s": 1.3147350993377482,
+  "first_trigger_time_s": 0.0,
+  "aeb_first_trigger_time_s": 0.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000001,
+  "speed_drop_mps": 7.9499999999999975,
+  "initial_speed_mps": 8.0,
+  "final_speed_mps": 0.05000000000000271,
+  "duration_s": 6.2,
+  "frame_count": 125,
+  "invalid_frame_count": 1,
+  "brake_delay_frames": 1
+}

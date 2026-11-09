@@ -1,0 +1,5 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "left_avoidable", "instance": "v11_d16", "seed": 30, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 11.0}, "target": {"gap_m": 16.0}, "trigger": {"distance_m": 16.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 0.0, "detail": {"frame": 0, "from": "IDLE", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.0090909090909093}}
+{"event_type": "aeb_state", "sim_time_s": 0.45, "detail": {"frame": 9, "from": "PARTIAL", "to": "FULL", "reason": "ttc_below_full", "ttc_s": 0.6756544502617801}}
+{"event_type": "collision", "sim_time_s": 1.4500000000000002, "detail": {"frame": 29, "relative_speed_mps": 3.599999999999995, "detector": "oriented_box"}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_01", "frame": 0}}

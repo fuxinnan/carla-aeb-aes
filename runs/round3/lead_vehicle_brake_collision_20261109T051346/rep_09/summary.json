@@ -1,0 +1,19 @@
+{
+  "run_id": "rep_09",
+  "scene_id": "lead_vehicle_brake_collision",
+  "strategy_name": "no_intervention",
+  "outcome": "collision",
+  "collided": true,
+  "min_distance_m": 0.0,
+  "min_ttc_s": 0.0,
+  "first_trigger_time_s": null,
+  "aeb_first_trigger_time_s": null,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 0.0,
+  "speed_drop_mps": null,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 11.0,
+  "duration_s": 2.85,
+  "frame_count": 58,
+  "invalid_frame_count": 36
+}

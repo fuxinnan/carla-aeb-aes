@@ -1,0 +1,20 @@
+{
+  "run_id": "right_avoidable_v11_d26",
+  "scene_id": "right_avoidable_v11_d26",
+  "strategy_name": "state_machine",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 1.0024999999999338,
+  "min_ttc_s": 1.0957943925233666,
+  "first_trigger_time_s": 0.0,
+  "aeb_first_trigger_time_s": 0.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 5.9999999999999964,
+  "speed_drop_mps": 10.800000000000006,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 0.19999999999999388,
+  "duration_s": 6.3500000000000005,
+  "frame_count": 128,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": 1
+}

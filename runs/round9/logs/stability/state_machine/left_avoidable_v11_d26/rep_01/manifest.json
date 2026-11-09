@@ -1,0 +1,10 @@
+{
+  "scene_id": "left_avoidable_v11_d26",
+  "strategy_name": "state_machine",
+  "split": "tuning",
+  "seed": 31,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "scene_id": "right_avoidable_v11_d26",
+  "strategy_name": "fixed_ttc",
+  "split": "tuning",
+  "seed": 35,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

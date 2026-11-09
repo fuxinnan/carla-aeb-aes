@@ -1,0 +1,9 @@
+template: right_avoidable
+instance: v11_d14
+seed: 421
+split: tuning
+ego:
+  speed_mps: 11.0
+distance_m: 14.0
+end:
+  hard_negative: false

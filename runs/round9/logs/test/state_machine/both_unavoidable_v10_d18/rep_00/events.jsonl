@@ -1,0 +1,11 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "both_unavoidable", "instance": "v10_d18", "seed": 96, "split": "test", "ego": {"s_m": 8.0, "speed_mps": 10.0}, "target": {"gap_m": 18.0}, "trigger": {"distance_m": 18.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 0.0, "detail": {"frame": 0, "from": "IDLE", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.31}}
+{"event_type": "aeb_state", "sim_time_s": 0.35000000000000003, "detail": {"frame": 7, "from": "PARTIAL", "to": "FULL", "reason": "ttc_below_full", "ttc_s": 1.0983146067415737}}
+{"event_type": "aeb_state", "sim_time_s": 1.4500000000000002, "detail": {"frame": 29, "from": "FULL", "to": "PARTIAL", "reason": "ttc_above_full", "ttc_s": 1.5154255319148973}}
+{"event_type": "aeb_state", "sim_time_s": 1.9500000000000002, "detail": {"frame": 39, "from": "PARTIAL", "to": "EXIT", "reason": "threat_cleared", "ttc_s": 5.1772727272727534}}
+{"event_type": "aeb_state", "sim_time_s": 6.050000000000001, "detail": {"frame": 121, "from": "EXIT", "to": "WARN", "reason": "rearmed", "ttc_s": 2.589705882353259}}
+{"event_type": "aeb_state", "sim_time_s": 6.8500000000000005, "detail": {"frame": 137, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.7897058823533145}}
+{"event_type": "aeb_state", "sim_time_s": 6.95, "detail": {"frame": 139, "from": "PARTIAL", "to": "EXIT", "reason": "stopped", "ttc_s": 3.637500000000818}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_0", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_1", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_2", "frame": 0}}

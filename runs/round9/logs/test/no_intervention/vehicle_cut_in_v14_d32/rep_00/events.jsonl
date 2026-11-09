@@ -1,0 +1,2 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "vehicle_cut_in", "instance": "v14_d32", "seed": 83, "split": "test", "ego": {"s_m": 8.0, "speed_mps": 14.0}, "target": {"gap_m": 32.0}, "trigger": {"distance_m": 32.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "cut_01", "frame": 0}}

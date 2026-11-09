@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "case_id": "aes_infeasible_both_unavoidable_v14_d18_aeb_aes",
+      "scene_id": "both_unavoidable_v14_d18",
+      "strategy_name": "aeb_aes",
+      "suspected_cause": "aes_infeasible",
+      "previous_collided": true,
+      "current_collided": true,
+      "status": "unchanged",
+      "previous_min_distance_m": 0.0,
+      "current_min_distance_m": 0.0,
+      "replay": {
+        "collided": true,
+        "min_distance_m": 0.0,
+        "outcome": "collision",
+        "first_risk_frame": 0,
+        "avoidable_critical_frame": null,
+        "brake_request_frame": 0
+      }
+    },
+    {
+      "case_id": "late_brake_both_unavoidable_v11_d16_state_machine",
+      "scene_id": "both_unavoidable_v11_d16",
+      "strategy_name": "state_machine",
+      "suspected_cause": "late_brake",
+      "previous_collided": true,
+      "current_collided": true,
+      "status": "unchanged",
+      "previous_min_distance_m": 0.0,
+      "current_min_distance_m": 0.0,
+      "replay": {
+        "collided": true,
+        "min_distance_m": 0.0,
+        "outcome": "collision",
+        "first_risk_frame": 0,
+        "avoidable_critical_frame": 1,
+        "brake_request_frame": 2
+      }
+    },
+    {
+      "case_id": "late_brake_left_avoidable_v11_d16_state_machine",
+      "scene_id": "left_avoidable_v11_d16",
+      "strategy_name": "state_machine",
+      "suspected_cause": "late_brake",
+      "previous_collided": true,
+      "current_collided": true,
+      "status": "unchanged",
+      "previous_min_distance_m": 0.0,
+      "current_min_distance_m": 0.0,
+      "replay": {
+        "collided": true,
+        "min_distance_m": 0.0,
+        "outcome": "collision",
+        "first_risk_frame": 0,
+        "avoidable_critical_frame": 1,
+        "brake_request_frame": 2
+      }
+    },
+    {
+      "case_id": "late_brake_right_avoidable_v11_d16_state_machine",
+      "scene_id": "right_avoidable_v11_d16",
+      "strategy_name": "state_machine",
+      "suspected_cause": "late_brake",
+      "previous_collided": true,
+      "current_collided": true,
+      "status": "unchanged",
+      "previous_min_distance_m": 0.0,
+      "current_min_distance_m": 0.0,
+      "replay": {
+        "collided": true,
+        "min_distance_m": 0.0,
+        "outcome": "collision",
+        "first_risk_frame": 0,
+        "avoidable_critical_frame": 1,
+        "brake_request_frame": 2
+      }
+    },
+    {
+      "case_id": "late_discovery_both_unavoidable_v14_d18_fixed_ttc",
+      "scene_id": "both_unavoidable_v14_d18",
+      "strategy_name": "fixed_ttc",
+      "suspected_cause": "late_discovery",
+      "previous_collided": true,
+      "current_collided": true,
+      "status": "unchanged",
+      "previous_min_distance_m": 0.0,
+      "current_min_distance_m": 0.0,
+      "replay": {
+        "collided": true,
+        "min_distance_m": 0.0,
+        "outcome": "collision",
+        "first_risk_frame": 0,
+        "avoidable_critical_frame": null,
+        "brake_request_frame": 0
+      }
+    }
+  ]
+}

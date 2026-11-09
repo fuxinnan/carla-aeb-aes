@@ -1,0 +1,12 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "both_unavoidable", "instance": "v8_d16", "seed": 36, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 8.0}, "target": {"gap_m": 16.0}, "trigger": {"distance_m": 16.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 0.0, "detail": {"frame": 0, "from": "IDLE", "to": "WARN", "reason": "ttc_below_warn", "ttc_s": 1.3875000000000002}}
+{"event_type": "aeb_state", "sim_time_s": 0.1, "detail": {"frame": 2, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.2875}}
+{"event_type": "aeb_state", "sim_time_s": 0.5, "detail": {"frame": 10, "from": "PARTIAL", "to": "FULL", "reason": "ttc_below_full", "ttc_s": 1.0906133828996283}}
+{"event_type": "aeb_state", "sim_time_s": 1.1500000000000001, "detail": {"frame": 23, "from": "FULL", "to": "PARTIAL", "reason": "ttc_above_full", "ttc_s": 1.460652173913041}}
+{"event_type": "aeb_state", "sim_time_s": 1.75, "detail": {"frame": 35, "from": "PARTIAL", "to": "EXIT", "reason": "threat_cleared", "ttc_s": 4.3215517241379064}}
+{"event_type": "aeb_state", "sim_time_s": 4.4, "detail": {"frame": 88, "from": "EXIT", "to": "WARN", "reason": "rearmed", "ttc_s": 2.5645833333332124}}
+{"event_type": "aeb_state", "sim_time_s": 5.300000000000001, "detail": {"frame": 106, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.6645833333331825}}
+{"event_type": "aeb_state", "sim_time_s": 5.5, "detail": {"frame": 110, "from": "PARTIAL", "to": "EXIT", "reason": "stopped", "ttc_s": null}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_0", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_1", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_2", "frame": 0}}

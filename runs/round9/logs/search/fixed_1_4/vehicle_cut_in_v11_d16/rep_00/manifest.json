@@ -1,0 +1,10 @@
+{
+  "scene_id": "vehicle_cut_in_v11_d16",
+  "strategy_name": "fixed_ttc",
+  "split": "tuning",
+  "seed": 22,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

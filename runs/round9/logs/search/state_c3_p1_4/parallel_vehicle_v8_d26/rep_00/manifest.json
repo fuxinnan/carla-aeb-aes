@@ -1,0 +1,10 @@
+{
+  "scene_id": "parallel_vehicle_v8_d26",
+  "strategy_name": "state_machine",
+  "split": "tuning",
+  "seed": 41,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

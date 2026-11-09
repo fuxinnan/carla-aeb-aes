@@ -1,0 +1,10 @@
+{
+  "scene_id": "vehicle_cut_in_v14_d18",
+  "strategy_name": "no_intervention",
+  "split": "test",
+  "seed": 82,
+  "evaluation": {
+    "split": "test",
+    "used_for_tuning": false
+  }
+}

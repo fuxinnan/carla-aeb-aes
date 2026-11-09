@@ -1,0 +1,13 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "both_unavoidable", "instance": "v8_d26", "seed": 37, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 8.0}, "target": {"gap_m": 26.0}, "trigger": {"distance_m": 26.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 0.05, "detail": {"frame": 1, "from": "IDLE", "to": "WARN", "reason": "ttc_below_warn", "ttc_s": 2.5875000000000004}}
+{"event_type": "aeb_state", "sim_time_s": 0.8500000000000001, "detail": {"frame": 17, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.7874999999999996}}
+{"event_type": "aeb_state", "sim_time_s": 2.35, "detail": {"frame": 47, "from": "PARTIAL", "to": "EXIT", "reason": "threat_cleared", "ttc_s": 2.1058695652173856}}
+{"event_type": "aeb_state", "sim_time_s": 2.4000000000000004, "detail": {"frame": 48, "from": "EXIT", "to": "WARN", "reason": "rearmed", "ttc_s": 2.13085585585585}}
+{"event_type": "aeb_state", "sim_time_s": 2.75, "detail": {"frame": 55, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.7999999999999963}}
+{"event_type": "aeb_state", "sim_time_s": 3.2, "detail": {"frame": 64, "from": "PARTIAL", "to": "EXIT", "reason": "threat_cleared", "ttc_s": 3.0884615384615235}}
+{"event_type": "aeb_state", "sim_time_s": 4.05, "detail": {"frame": 81, "from": "EXIT", "to": "WARN", "reason": "rearmed", "ttc_s": 2.5632978723404136}}
+{"event_type": "aeb_state", "sim_time_s": 4.8500000000000005, "detail": {"frame": 97, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.7632978723404187}}
+{"event_type": "aeb_state", "sim_time_s": 5.2, "detail": {"frame": 104, "from": "PARTIAL", "to": "EXIT", "reason": "stopped", "ttc_s": null}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_0", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_1", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_2", "frame": 0}}

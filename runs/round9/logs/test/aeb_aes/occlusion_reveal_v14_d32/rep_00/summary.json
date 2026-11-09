@@ -1,0 +1,20 @@
+{
+  "run_id": "occlusion_reveal_v14_d32",
+  "scene_id": "occlusion_reveal_v14_d32",
+  "strategy_name": "aeb_aes",
+  "outcome": "collision",
+  "collided": true,
+  "min_distance_m": 0.0,
+  "min_ttc_s": 0.0,
+  "first_trigger_time_s": 1.4000000000000001,
+  "aeb_first_trigger_time_s": 1.4000000000000001,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 4.650000000000009,
+  "initial_speed_mps": 14.0,
+  "final_speed_mps": 9.34999999999999,
+  "duration_s": 2.25,
+  "frame_count": 46,
+  "invalid_frame_count": 28,
+  "brake_delay_frames": 1
+}

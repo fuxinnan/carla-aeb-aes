@@ -1,0 +1,10 @@
+{
+  "scene_id": "right_avoidable_v11_d16",
+  "strategy_name": "no_intervention",
+  "split": "tuning",
+  "seed": 34,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

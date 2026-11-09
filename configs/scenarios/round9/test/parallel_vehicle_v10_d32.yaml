@@ -1,0 +1,9 @@
+template: parallel_vehicle
+instance: v10_d32
+seed: 101
+split: test
+ego:
+  speed_mps: 10.0
+distance_m: 32.0
+end:
+  hard_negative: true

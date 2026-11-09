@@ -1,0 +1,20 @@
+{
+  "run_id": "left_avoidable_v8_d26",
+  "scene_id": "left_avoidable_v8_d26",
+  "strategy_name": "state_machine",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 1.6724999999999959,
+  "min_ttc_s": 0.9779411764705874,
+  "first_trigger_time_s": 0.45,
+  "aeb_first_trigger_time_s": 0.45,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 3.500000000000001,
+  "speed_drop_mps": 7.849999999999995,
+  "initial_speed_mps": 8.0,
+  "final_speed_mps": 0.15000000000000488,
+  "duration_s": 3.5500000000000003,
+  "frame_count": 72,
+  "invalid_frame_count": 1,
+  "brake_delay_frames": 1
+}

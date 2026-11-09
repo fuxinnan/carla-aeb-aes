@@ -1,0 +1,45 @@
+{
+  "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round9\\logs\\search\\state_c3_p1_4\\left_avoidable_v11_d16\\rep_00",
+  "scene_id": "left_avoidable_v11_d16",
+  "strategy_name": "state_machine",
+  "ego_speed_mps": 11.0,
+  "distance_m": 16.0,
+  "appearance_s": 0.0,
+  "hard_rules": [
+    "collision"
+  ],
+  "suspected_cause": "late_brake",
+  "evidence": {
+    "collided": true,
+    "min_distance_m": 0.0,
+    "state_switch_count": 3,
+    "false_brake": null,
+    "request_to_decel_frames": 1,
+    "max_abs_path_error_m": null,
+    "aes_infeasible_frames": [],
+    "gap_frames": [],
+    "first_risk_frame": 0,
+    "avoidable_critical_frame": 1,
+    "brake_request_frame": 2,
+    "risk_before_or_at_critical": true
+  },
+  "baseline": {
+    "collided": true,
+    "min_distance_m": 0.0,
+    "outcome": "collision"
+  },
+  "manifest": {
+    "scene_id": "left_avoidable_v11_d16",
+    "strategy_name": "state_machine",
+    "split": "tuning",
+    "seed": 30,
+    "template": "left_avoidable",
+    "instance": "v11_d16",
+    "ego_speed_mps": 11.0,
+    "distance_m": 16.0,
+    "hard_negative": false,
+    "occlusion": false,
+    "aeb_config": "configs/aeb/round9/search/state_c3_p1_4.yaml"
+  },
+  "case_id": "late_brake_left_avoidable_v11_d16_state_machine"
+}

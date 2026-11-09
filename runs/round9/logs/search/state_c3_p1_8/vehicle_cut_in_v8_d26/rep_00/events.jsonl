@@ -1,0 +1,5 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "vehicle_cut_in", "instance": "v8_d26", "seed": 21, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 8.0}, "target": {"gap_m": 26.0}, "trigger": {"distance_m": 26.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 5.6000000000000005, "detail": {"frame": 112, "from": "IDLE", "to": "WARN", "reason": "ttc_below_warn", "ttc_s": 1.4333333333333744}}
+{"event_type": "aeb_state", "sim_time_s": 5.7, "detail": {"frame": 114, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.3333333333333754}}
+{"event_type": "aeb_state", "sim_time_s": 6.65, "detail": {"frame": 133, "from": "PARTIAL", "to": "EXIT", "reason": "target_lost", "ttc_s": null}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "cut_01", "frame": 0}}

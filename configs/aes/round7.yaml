@@ -1,0 +1,24 @@
+# 第 7 轮 AES 候选轨迹。只用于离线规划，不接入车辆，也不改 AEB。
+# 限值按 vehicle.lincoln.mkz_2020 的一次紧急变道确定，不是把模型默认值抄进来。
+version: round7-0
+trajectory:
+  # 一条车道宽 3.5 m。纵向 30 m、10 m/s 时，实测峰值：横向加速度 2.21 m/s²，
+  # 前轮转角 0.063 rad，转角变化率 0.211 rad/s。都低于下面的限值。
+  lateral_offset_m: 3.5
+  length_m: 30.0
+  sample_dt_s: 0.05
+  # 速度剖面。0 表示整段保持当前车速；负值是匀减速，但必须在这段走完之前仍为正速度。
+  longitudinal_accel_mps2: 0.0
+constraints:
+  # 0.41 g。干燥路面轮胎大约还能到 8 m/s²，这里把可控的紧急变道限在 4 m/s²。
+  max_lat_accel_mps2: 4.0
+  # 约 30°。乘用车前轮转角止位通常在 30° 到 35°，取 0.52 rad。
+  max_steer_rad: 0.52
+  # 约 40°/s。再快的话侧向力跟不上前轮，不把这条线放宽到刚好包住本段轨迹。
+  max_steer_rate_radps: 0.70
+  # 林肯 MKZ 轴距 112.2 inch。场景里的自车蓝图就是 vehicle.lincoln.mkz_2020。
+  wheelbase_m: 2.85
+  # 10 m/s 下 8 m 只有 0.8 s。本段五次多项式走到这里横向还不到 0.5 m，让不开一辆车。
+  close_gap_m: 8.0
+  # 两侧代价差不大于该值时视为相同，保留向左，向右写明拒绝原因。
+  cost_tie_epsilon: 0.001

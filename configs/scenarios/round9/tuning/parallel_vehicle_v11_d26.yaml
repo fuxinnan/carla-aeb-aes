@@ -1,0 +1,9 @@
+template: parallel_vehicle
+instance: v11_d26
+seed: 43
+split: tuning
+ego:
+  speed_mps: 11.0
+distance_m: 26.0
+end:
+  hard_negative: true

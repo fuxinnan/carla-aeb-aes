@@ -1,0 +1,20 @@
+{
+  "run_id": "occlusion_reveal_v11_d26",
+  "scene_id": "occlusion_reveal_v11_d26",
+  "strategy_name": "state_machine",
+  "outcome": "collision",
+  "collided": true,
+  "min_distance_m": 0.0,
+  "min_ttc_s": 0.0,
+  "first_trigger_time_s": 1.4000000000000001,
+  "aeb_first_trigger_time_s": 1.4000000000000001,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 5.2500000000000036,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 5.7499999999999964,
+  "duration_s": 2.35,
+  "frame_count": 48,
+  "invalid_frame_count": 28,
+  "brake_delay_frames": 1
+}

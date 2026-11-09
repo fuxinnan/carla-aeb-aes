@@ -1,0 +1,5 @@
+# 空控制同步循环。不生成其他车辆或行人。
+map: Town03
+fixed_delta_seconds: 0.05
+frame_count: 1000
+render: true

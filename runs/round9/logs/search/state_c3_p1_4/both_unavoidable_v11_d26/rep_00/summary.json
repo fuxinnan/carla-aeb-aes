@@ -1,0 +1,20 @@
+{
+  "run_id": "both_unavoidable_v11_d26",
+  "scene_id": "both_unavoidable_v11_d26",
+  "strategy_name": "state_machine",
+  "outcome": "collision",
+  "collided": true,
+  "min_distance_m": 0.0,
+  "min_ttc_s": 0.0,
+  "first_trigger_time_s": 0.0,
+  "aeb_first_trigger_time_s": 0.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000001,
+  "speed_drop_mps": 10.775000000000007,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 0.22499999999999298,
+  "duration_s": 2.85,
+  "frame_count": 58,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": 1
+}

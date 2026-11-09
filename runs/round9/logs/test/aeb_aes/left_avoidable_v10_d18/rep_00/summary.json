@@ -1,0 +1,20 @@
+{
+  "run_id": "left_avoidable_v10_d18",
+  "scene_id": "left_avoidable_v10_d18",
+  "strategy_name": "aeb_aes",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.727500000000159,
+  "min_ttc_s": 1.0170000000000008,
+  "first_trigger_time_s": 0.0,
+  "aeb_first_trigger_time_s": 0.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 9.800000000000002,
+  "initial_speed_mps": 10.0,
+  "final_speed_mps": 0.19999999999999823,
+  "duration_s": 6.95,
+  "frame_count": 140,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": 1
+}

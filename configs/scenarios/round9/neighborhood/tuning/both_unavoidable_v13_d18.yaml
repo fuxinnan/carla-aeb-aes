@@ -1,0 +1,9 @@
+template: both_unavoidable
+instance: v13_d18
+seed: 437
+split: tuning
+ego:
+  speed_mps: 13.0
+distance_m: 18.0
+end:
+  hard_negative: false

@@ -1,0 +1,20 @@
+{
+  "run_id": "occlusion_reveal_v10_d32",
+  "scene_id": "occlusion_reveal_v10_d32",
+  "strategy_name": "fixed_ttc",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.09145524861919438,
+  "min_ttc_s": 1.2552013422818797,
+  "first_trigger_time_s": 1.55,
+  "aeb_first_trigger_time_s": 1.55,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 7.350000000000001,
+  "initial_speed_mps": 10.0,
+  "final_speed_mps": 2.6499999999999986,
+  "duration_s": 8.0,
+  "frame_count": 161,
+  "invalid_frame_count": 125,
+  "brake_delay_frames": 1
+}

@@ -1,0 +1,10 @@
+{
+  "scene_id": "both_unavoidable_v14_d18",
+  "strategy_name": "aeb_aes",
+  "split": "test",
+  "seed": 98,
+  "evaluation": {
+    "split": "test",
+    "used_for_tuning": false
+  }
+}

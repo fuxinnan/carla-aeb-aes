@@ -1,0 +1,24 @@
+# 更近的旁车挡住后方行人，行人走出遮挡后才进入策略视线。
+template: occlusion_reveal
+description: 右侧大车挡住同侧行人。行人向车道中心走，视线离开大车后才可见。
+execution: kinematic
+behavior:
+  ego: hold_initial_speed
+  target: reveal_after_occlusion
+trigger:
+  type: distance_to_target
+map: Town10HD_Opt
+fixed_delta_seconds: 0.05
+timeout_s: 8.0
+stop_speed_mps: 0.2
+ego_s_m: 8.0
+straight_length_m: 120.0
+sample_step_m: 2.0
+ego_blueprint: vehicle.lincoln.mkz_2020
+target_blueprint: walker.pedestrian.0001
+ego_box: {length_m: 4.90, width_m: 2.12, height_m: 1.51}
+target_box: {length_m: 0.50, width_m: 0.50, height_m: 1.80}
+occluder_box: {length_m: 5.20, width_m: 2.20, height_m: 1.80}
+blocker_lateral_m: 2.2
+hidden_lateral_m: 2.2
+hidden_speed_mps: 0.85

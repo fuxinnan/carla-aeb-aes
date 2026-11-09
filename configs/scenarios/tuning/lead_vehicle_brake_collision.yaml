@@ -1,0 +1,14 @@
+# 调参集。无干预时会追尾的前车制动。
+template: lead_vehicle_brake
+instance: collision
+seed: 7
+ego:
+  speed_mps: 11.0
+target:
+  speed_mps: 6.0
+  decel_mps2: 4.0
+  gap_m: 22.0
+trigger:
+  distance_m: 14.0
+end:
+  hard_negative: false

@@ -1,0 +1,20 @@
+{
+  "run_id": "round1_fake100",
+  "scene_id": "demo_ccrs",
+  "strategy_name": "aeb",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 6.48,
+  "min_ttc_s": 0.55,
+  "first_trigger_time_s": 1.0,
+  "aeb_first_trigger_time_s": 1.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.0,
+  "speed_drop_mps": 12.0,
+  "initial_speed_mps": 20.0,
+  "final_speed_mps": 8.0,
+  "duration_s": 4.95,
+  "frame_count": 100,
+  "invalid_frame_count": 31,
+  "brake_delay_frames": null
+}

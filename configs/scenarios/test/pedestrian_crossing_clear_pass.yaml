@@ -1,0 +1,14 @@
+# 测试集里的硬负例。行人仍在自车到达前走完，不应制动。
+template: pedestrian_crossing
+instance: clear_pass
+seed: 11
+ego:
+  speed_mps: 10.0
+target:
+  speed_mps: 2.2
+  lateral_m: 5.5
+trigger:
+  distance_m: 50.0
+end:
+  hard_negative: true
+  timeout_s: 8.0

@@ -1,0 +1,45 @@
+{
+  "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round9\\logs\\test\\fixed_ttc\\both_unavoidable_v14_d18\\rep_00",
+  "scene_id": "both_unavoidable_v14_d18",
+  "strategy_name": "fixed_ttc",
+  "ego_speed_mps": 14.0,
+  "distance_m": 18.0,
+  "appearance_s": 0.0,
+  "hard_rules": [
+    "collision"
+  ],
+  "suspected_cause": "late_discovery",
+  "evidence": {
+    "collided": true,
+    "min_distance_m": 0.0,
+    "state_switch_count": 1,
+    "false_brake": null,
+    "request_to_decel_frames": 1,
+    "max_abs_path_error_m": null,
+    "aes_infeasible_frames": [],
+    "gap_frames": [],
+    "first_risk_frame": 0,
+    "avoidable_critical_frame": null,
+    "brake_request_frame": 0,
+    "risk_before_or_at_critical": false
+  },
+  "baseline": {
+    "collided": true,
+    "min_distance_m": 0.0,
+    "outcome": "collision"
+  },
+  "manifest": {
+    "scene_id": "both_unavoidable_v14_d18",
+    "strategy_name": "fixed_ttc",
+    "split": "test",
+    "seed": 98,
+    "template": "both_unavoidable",
+    "instance": "v14_d18",
+    "ego_speed_mps": 14.0,
+    "distance_m": 18.0,
+    "hard_negative": false,
+    "occlusion": false,
+    "aeb_config": "configs/aeb/round9/chosen_fixed.yaml"
+  },
+  "case_id": "late_discovery_both_unavoidable_v14_d18_fixed_ttc"
+}

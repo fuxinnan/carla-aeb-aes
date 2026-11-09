@@ -1,0 +1,9 @@
+template: left_avoidable
+instance: v10_d18
+seed: 88
+split: test
+ego:
+  speed_mps: 10.0
+distance_m: 18.0
+end:
+  hard_negative: false

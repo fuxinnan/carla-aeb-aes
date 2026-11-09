@@ -1,0 +1,11 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "occlusion_reveal", "instance": "v8_d26", "seed": 25, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 8.0}, "target": {"gap_m": 26.0}, "trigger": {"distance_m": 26.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 1.55, "detail": {"frame": 31, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3625000000000012}}
+{"event_type": "aeb_state", "sim_time_s": 2.15, "detail": {"frame": 43, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4301546391752589}}
+{"event_type": "aeb_state", "sim_time_s": 2.35, "detail": {"frame": 47, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3704545454545467}}
+{"event_type": "aeb_state", "sim_time_s": 2.5500000000000003, "detail": {"frame": 51, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4263698630137003}}
+{"event_type": "aeb_state", "sim_time_s": 2.8000000000000003, "detail": {"frame": 56, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3687500000000026}}
+{"event_type": "aeb_state", "sim_time_s": 2.95, "detail": {"frame": 59, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.427727272727276}}
+{"event_type": "aeb_state", "sim_time_s": 3.1500000000000004, "detail": {"frame": 63, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3512376237623809}}
+{"event_type": "aeb_state", "sim_time_s": 3.25, "detail": {"frame": 65, "from": "FULL", "to": "IDLE", "reason": "ttc_unavailable", "ttc_s": null}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "blocker_01", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 1.4500000000000002, "detail": {"track_id": "ped_hidden", "frame": 29}}

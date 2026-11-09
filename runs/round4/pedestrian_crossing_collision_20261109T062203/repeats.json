@@ -1,0 +1,34 @@
+{
+  "scene_id": "pedestrian_crossing_collision",
+  "config": "configs\\scenarios\\pedestrian_crossing_collision.yaml",
+  "stable": true,
+  "target_spawn_deviation_m": 0.0,
+  "trigger_frames": [
+    31
+  ],
+  "collided": [
+    true
+  ],
+  "collision_relative_speed_mps": [
+    10.061159547853697
+  ],
+  "speed_range_mps": 0.0,
+  "preview": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round4\\pedestrian_crossing_collision_20261109T062203\\scenario_preview.png",
+  "stability": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round4\\pedestrian_crossing_collision_20261109T062203\\stability.png",
+  "replay": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round4\\pedestrian_crossing_collision_20261109T062203\\rep_00\\figures\\pedestrian_crossing_collision_bev.mp4",
+  "runs": [
+    {
+      "index": 0,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round4\\pedestrian_crossing_collision_20261109T062203\\rep_00",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    }
+  ]
+}

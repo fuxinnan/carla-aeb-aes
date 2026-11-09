@@ -1,0 +1,20 @@
+{
+  "run_id": "right_avoidable_v14_d32",
+  "scene_id": "right_avoidable_v14_d32",
+  "strategy_name": "aeb_aes",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 2.334375000000051,
+  "min_ttc_s": 0.9114485981308501,
+  "first_trigger_time_s": 0.0,
+  "aeb_first_trigger_time_s": 0.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 13.875000000000016,
+  "initial_speed_mps": 14.0,
+  "final_speed_mps": 0.12499999999998426,
+  "duration_s": 3.1500000000000004,
+  "frame_count": 64,
+  "invalid_frame_count": 1,
+  "brake_delay_frames": 1
+}

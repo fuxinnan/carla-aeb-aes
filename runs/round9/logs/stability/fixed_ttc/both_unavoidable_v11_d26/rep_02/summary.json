@@ -1,0 +1,20 @@
+{
+  "run_id": "both_unavoidable_v11_d26",
+  "scene_id": "both_unavoidable_v11_d26",
+  "strategy_name": "fixed_ttc",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.3625000000000398,
+  "min_ttc_s": 1.1764388489208635,
+  "first_trigger_time_s": 0.55,
+  "aeb_first_trigger_time_s": 0.55,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 10.800000000000002,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 0.1999999999999979,
+  "duration_s": 5.7,
+  "frame_count": 115,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": 1
+}

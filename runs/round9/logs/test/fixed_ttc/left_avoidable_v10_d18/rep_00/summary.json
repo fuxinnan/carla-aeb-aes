@@ -1,0 +1,20 @@
+{
+  "run_id": "left_avoidable_v10_d18",
+  "scene_id": "left_avoidable_v10_d18",
+  "strategy_name": "fixed_ttc",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.3293750000000024,
+  "min_ttc_s": 1.1585766423357668,
+  "first_trigger_time_s": 0.0,
+  "aeb_first_trigger_time_s": 0.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 9.825000000000001,
+  "initial_speed_mps": 10.0,
+  "final_speed_mps": 0.17499999999999977,
+  "duration_s": 5.1000000000000005,
+  "frame_count": 103,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": 1
+}

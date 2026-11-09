@@ -1,0 +1,20 @@
+{
+  "run_id": "both_unavoidable_v8_d16",
+  "scene_id": "both_unavoidable_v8_d16",
+  "strategy_name": "aeb_aes",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.9481250000000863,
+  "min_ttc_s": 1.0899999999999996,
+  "first_trigger_time_s": 0.0,
+  "aeb_first_trigger_time_s": 0.0,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 5.9999999999999964,
+  "speed_drop_mps": 7.824999999999997,
+  "initial_speed_mps": 8.0,
+  "final_speed_mps": 0.1750000000000033,
+  "duration_s": 5.5,
+  "frame_count": 111,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": 1
+}

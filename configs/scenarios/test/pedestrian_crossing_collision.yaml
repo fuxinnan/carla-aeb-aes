@@ -1,0 +1,13 @@
+# 测试集。只用来对照，本轮不拿它改阈值。
+template: pedestrian_crossing
+instance: collision
+seed: 11
+ego:
+  speed_mps: 12.0
+target:
+  speed_mps: 1.2
+  lateral_m: 3.5
+trigger:
+  distance_m: 22.0
+end:
+  hard_negative: false

@@ -1,0 +1,20 @@
+{
+  "run_id": "both_unavoidable_v10_d32",
+  "scene_id": "both_unavoidable_v10_d32",
+  "strategy_name": "fixed_ttc",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.3306249999999622,
+  "min_ttc_s": 1.2283557046979872,
+  "first_trigger_time_s": 1.35,
+  "aeb_first_trigger_time_s": 1.35,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 9.825000000000001,
+  "initial_speed_mps": 10.0,
+  "final_speed_mps": 0.17499999999999954,
+  "duration_s": 6.6000000000000005,
+  "frame_count": 133,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": 1
+}

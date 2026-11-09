@@ -1,0 +1,13 @@
+template: pedestrian_crossing
+instance: unavoidable
+seed: 8
+ego:
+  speed_mps: 12.0
+target:
+  speed_mps: 1.2
+  lateral_m: 1.5
+trigger:
+  distance_m: 16.0
+end:
+  hard_negative: false
+  timeout_s: 8.0

@@ -1,0 +1,10 @@
+{
+  "scene_id": "parallel_vehicle_v11_d16",
+  "strategy_name": "aeb_aes",
+  "split": "tuning",
+  "seed": 42,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

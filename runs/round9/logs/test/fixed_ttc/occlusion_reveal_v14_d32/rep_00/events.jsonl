@@ -1,0 +1,5 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "occlusion_reveal", "instance": "v14_d32", "seed": 87, "split": "test", "ego": {"s_m": 8.0, "speed_mps": 14.0}, "target": {"gap_m": 32.0}, "trigger": {"distance_m": 32.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 1.4000000000000001, "detail": {"frame": 28, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.6928571428571443}}
+{"event_type": "collision", "sim_time_s": 2.25, "detail": {"frame": 45, "relative_speed_mps": 9.388556864609162, "detector": "oriented_box"}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "blocker_01", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 1.4000000000000001, "detail": {"track_id": "ped_hidden", "frame": 28}}

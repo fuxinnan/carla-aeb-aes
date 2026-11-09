@@ -1,0 +1,20 @@
+{
+  "run_id": "rep_00",
+  "scene_id": "lead_vehicle_brake_collision",
+  "strategy_name": "fixed_ttc",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.4251966781898305,
+  "min_ttc_s": 0.3739579496969609,
+  "first_trigger_time_s": 1.8,
+  "aeb_first_trigger_time_s": 1.8,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 10.950000000000001,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 0.04999999999999827,
+  "duration_s": 3.7,
+  "frame_count": 75,
+  "invalid_frame_count": 37,
+  "brake_delay_frames": 1
+}

@@ -1,0 +1,10 @@
+{
+  "scene_id": "left_avoidable_v10_d32",
+  "strategy_name": "aeb_aes",
+  "split": "test",
+  "seed": 89,
+  "evaluation": {
+    "split": "test",
+    "used_for_tuning": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "scene_id": "both_unavoidable_v8_d26",
+  "strategy_name": "no_intervention",
+  "split": "tuning",
+  "seed": 37,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

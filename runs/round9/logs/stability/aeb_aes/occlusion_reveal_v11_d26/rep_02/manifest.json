@@ -1,0 +1,10 @@
+{
+  "scene_id": "occlusion_reveal_v11_d26",
+  "strategy_name": "aeb_aes",
+  "split": "tuning",
+  "seed": 27,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

@@ -1,0 +1,14 @@
+# 硬负例。行人从自车前方远处走完车道，自车到达时人已经让开，不应制动。
+template: pedestrian_crossing
+instance: clear_pass
+seed: 7
+ego:
+  speed_mps: 8.0
+target:
+  speed_mps: 2.5
+  lateral_m: 4.0
+trigger:
+  distance_m: 55.0
+end:
+  hard_negative: true
+  timeout_s: 8.0

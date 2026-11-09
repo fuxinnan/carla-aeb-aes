@@ -1,0 +1,35 @@
+{
+  "scene_id": "pedestrian_crossing_collision",
+  "config": "configs\\scenarios\\pedestrian_crossing_collision.yaml",
+  "stable": true,
+  "target_spawn_deviation_m": 0.0,
+  "trigger_frames": [
+    31
+  ],
+  "collided": [
+    false
+  ],
+  "collision_relative_speed_mps": [
+    null
+  ],
+  "speed_range_mps": null,
+  "preview": "runs\\round5\\pedestrian_crossing_collision_state_machine\\scenario_preview.png",
+  "stability": "runs\\round5\\pedestrian_crossing_collision_state_machine\\stability.png",
+  "replay": "runs\\round5\\pedestrian_crossing_collision_state_machine\\rep_00\\figures\\pedestrian_crossing_collision_bev.mp4",
+  "runs": [
+    {
+      "index": 0,
+      "run_dir": "runs\\round5\\pedestrian_crossing_collision_state_machine\\rep_00",
+      "trigger_frame": 31,
+      "collided": false,
+      "collision_relative_speed_mps": null,
+      "brake_delay_frames": 1,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    }
+  ]
+}

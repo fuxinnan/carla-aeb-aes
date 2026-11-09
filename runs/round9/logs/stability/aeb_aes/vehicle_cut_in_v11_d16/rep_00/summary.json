@@ -1,0 +1,20 @@
+{
+  "run_id": "vehicle_cut_in_v11_d16",
+  "scene_id": "vehicle_cut_in_v11_d16",
+  "strategy_name": "aeb_aes",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 1.731647496133092,
+  "min_ttc_s": 1.0534575116790428,
+  "first_trigger_time_s": 0.4,
+  "aeb_first_trigger_time_s": 2.8000000000000003,
+  "aes_first_trigger_time_s": 0.4,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 5.800000000000007,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 5.199999999999993,
+  "duration_s": 8.0,
+  "frame_count": 161,
+  "invalid_frame_count": 137,
+  "brake_delay_frames": 1
+}

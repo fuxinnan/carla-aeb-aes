@@ -1,0 +1,10 @@
+{
+  "scene_id": "occlusion_reveal_v14_d18",
+  "strategy_name": "fixed_ttc",
+  "split": "test",
+  "seed": 86,
+  "evaluation": {
+    "split": "test",
+    "used_for_tuning": false
+  }
+}

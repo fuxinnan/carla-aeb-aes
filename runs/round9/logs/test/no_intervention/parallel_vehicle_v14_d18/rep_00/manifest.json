@@ -1,0 +1,10 @@
+{
+  "scene_id": "parallel_vehicle_v14_d18",
+  "strategy_name": "no_intervention",
+  "split": "test",
+  "seed": 102,
+  "evaluation": {
+    "split": "test",
+    "used_for_tuning": false
+  }
+}

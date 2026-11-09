@@ -1,0 +1,28 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "vehicle_cut_in", "instance": "v8_d26", "seed": 21, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 8.0}, "target": {"gap_m": 26.0}, "trigger": {"distance_m": 26.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 5.65, "detail": {"frame": 113, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3833333333333748}}
+{"event_type": "aeb_state", "sim_time_s": 5.800000000000001, "detail": {"frame": 116, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4612745098039712}}
+{"event_type": "aeb_state", "sim_time_s": 6.0, "detail": {"frame": 120, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3986559139785486}}
+{"event_type": "aeb_state", "sim_time_s": 6.1000000000000005, "detail": {"frame": 122, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4422619047619634}}
+{"event_type": "aeb_state", "sim_time_s": 6.2, "detail": {"frame": 124, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3947530864198145}}
+{"event_type": "aeb_state", "sim_time_s": 6.300000000000001, "detail": {"frame": 126, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.461805555555624}}
+{"event_type": "aeb_state", "sim_time_s": 6.45, "detail": {"frame": 129, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3742753623189137}}
+{"event_type": "aeb_state", "sim_time_s": 6.550000000000001, "detail": {"frame": 131, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4716666666667506}}
+{"event_type": "aeb_state", "sim_time_s": 6.7, "detail": {"frame": 134, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3978070175439512}}
+{"event_type": "aeb_state", "sim_time_s": 6.75, "detail": {"frame": 135, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4240740740741702}}
+{"event_type": "aeb_state", "sim_time_s": 6.800000000000001, "detail": {"frame": 136, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3740740740741682}}
+{"event_type": "aeb_state", "sim_time_s": 6.8500000000000005, "detail": {"frame": 137, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4034313725491219}}
+{"event_type": "aeb_state", "sim_time_s": 6.9, "detail": {"frame": 138, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3534313725491225}}
+{"event_type": "aeb_state", "sim_time_s": 7.0, "detail": {"frame": 140, "from": "FULL", "to": "IDLE", "reason": "ttc_unavailable", "ttc_s": null}}
+{"event_type": "aeb_state", "sim_time_s": 7.300000000000001, "detail": {"frame": 146, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3467948717950133}}
+{"event_type": "aeb_state", "sim_time_s": 7.3500000000000005, "detail": {"frame": 147, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4069444444445982}}
+{"event_type": "aeb_state", "sim_time_s": 7.4, "detail": {"frame": 148, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3569444444445962}}
+{"event_type": "aeb_state", "sim_time_s": 7.45, "detail": {"frame": 149, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.428030303030465}}
+{"event_type": "aeb_state", "sim_time_s": 7.5, "detail": {"frame": 150, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3780303030304586}}
+{"event_type": "aeb_state", "sim_time_s": 7.550000000000001, "detail": {"frame": 151, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4633333333334961}}
+{"event_type": "aeb_state", "sim_time_s": 7.65, "detail": {"frame": 153, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3633333333335107}}
+{"event_type": "aeb_state", "sim_time_s": 7.7, "detail": {"frame": 154, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.462037037037241}}
+{"event_type": "aeb_state", "sim_time_s": 7.800000000000001, "detail": {"frame": 156, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.362037037037247}}
+{"event_type": "aeb_state", "sim_time_s": 7.8500000000000005, "detail": {"frame": 157, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4791666666669052}}
+{"event_type": "aeb_state", "sim_time_s": 7.95, "detail": {"frame": 159, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3791666666669007}}
+{"event_type": "aeb_state", "sim_time_s": 8.0, "detail": {"frame": 160, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.5226190476193115}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "cut_01", "frame": 0}}

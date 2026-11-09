@@ -1,0 +1,338 @@
+{
+  "scene_id": "lead_vehicle_brake_collision",
+  "config": "configs\\scenarios\\lead_vehicle_brake_collision.yaml",
+  "stable": true,
+  "target_spawn_deviation_m": 0.0,
+  "trigger_frames": [
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32
+  ],
+  "collided": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "collision_relative_speed_mps": [
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975,
+    10.002189010974975
+  ],
+  "speed_range_mps": 0.0,
+  "preview": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\scenario_preview.png",
+  "stability": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\stability.png",
+  "replay": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_00\\figures\\lead_vehicle_brake_collision_bev.mp4",
+  "runs": [
+    {
+      "index": 0,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_00",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 1,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_01",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 2,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_02",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 3,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_03",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 4,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_04",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 5,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_05",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 6,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_06",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 7,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_07",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 8,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_08",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 9,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_09",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 10,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_10",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 11,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_11",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 12,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_12",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 13,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_13",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 14,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_14",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 15,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_15",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 16,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_16",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 17,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_17",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 18,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_18",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    },
+    {
+      "index": 19,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\lead_vehicle_brake_collision_20261109T052034\\rep_19",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 10.002189010974975,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    }
+  ]
+}

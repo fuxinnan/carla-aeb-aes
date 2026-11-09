@@ -1,0 +1,10 @@
+{
+  "scene_id": "right_avoidable_v14_d32",
+  "strategy_name": "state_machine",
+  "split": "test",
+  "seed": 95,
+  "evaluation": {
+    "split": "test",
+    "used_for_tuning": false
+  }
+}

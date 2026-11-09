@@ -1,0 +1,26 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "vehicle_cut_in", "instance": "v8_d16", "seed": 20, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 8.0}, "target": {"gap_m": 16.0}, "trigger": {"distance_m": 16.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 2.35, "detail": {"frame": 47, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3500000000000103}}
+{"event_type": "aeb_state", "sim_time_s": 2.5, "detail": {"frame": 50, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4220588235294247}}
+{"event_type": "aeb_state", "sim_time_s": 2.7, "detail": {"frame": 54, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3556451612903362}}
+{"event_type": "aeb_state", "sim_time_s": 2.85, "detail": {"frame": 57, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.509000000000018}}
+{"event_type": "aeb_state", "sim_time_s": 3.2, "detail": {"frame": 64, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3590909090909262}}
+{"event_type": "aeb_state", "sim_time_s": 3.3000000000000003, "detail": {"frame": 66, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4644736842105464}}
+{"event_type": "aeb_state", "sim_time_s": 3.45, "detail": {"frame": 69, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3944444444444613}}
+{"event_type": "aeb_state", "sim_time_s": 3.5, "detail": {"frame": 70, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4250000000000203}}
+{"event_type": "aeb_state", "sim_time_s": 3.5500000000000003, "detail": {"frame": 71, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.375000000000021}}
+{"event_type": "aeb_state", "sim_time_s": 3.6, "detail": {"frame": 72, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4093750000000222}}
+{"event_type": "aeb_state", "sim_time_s": 3.6500000000000004, "detail": {"frame": 73, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3593750000000202}}
+{"event_type": "aeb_state", "sim_time_s": 3.7, "detail": {"frame": 74, "from": "FULL", "to": "IDLE", "reason": "ttc_unavailable", "ttc_s": null}}
+{"event_type": "aeb_state", "sim_time_s": 3.95, "detail": {"frame": 79, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.1483333333333638}}
+{"event_type": "aeb_state", "sim_time_s": 4.1000000000000005, "detail": {"frame": 82, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.7027777777778337}}
+{"event_type": "aeb_state", "sim_time_s": 5.25, "detail": {"frame": 105, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3833333333333764}}
+{"event_type": "aeb_state", "sim_time_s": 5.300000000000001, "detail": {"frame": 106, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.6050000000000475}}
+{"event_type": "aeb_state", "sim_time_s": 5.550000000000001, "detail": {"frame": 111, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.355000000000083}}
+{"event_type": "aeb_state", "sim_time_s": 5.6000000000000005, "detail": {"frame": 112, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.637500000000112}}
+{"event_type": "aeb_state", "sim_time_s": 5.8500000000000005, "detail": {"frame": 117, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3875000000000994}}
+{"event_type": "aeb_state", "sim_time_s": 5.9, "detail": {"frame": 118, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.7916666666667973}}
+{"event_type": "aeb_state", "sim_time_s": 6.300000000000001, "detail": {"frame": 126, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3916666666669015}}
+{"event_type": "aeb_state", "sim_time_s": 6.3500000000000005, "detail": {"frame": 127, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 2.0250000000003805}}
+{"event_type": "aeb_state", "sim_time_s": 7.0, "detail": {"frame": 140, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3750000000003382}}
+{"event_type": "aeb_state", "sim_time_s": 7.050000000000001, "detail": {"frame": 141, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 2.6750000000007272}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "cut_01", "frame": 0}}

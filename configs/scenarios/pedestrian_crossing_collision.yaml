@@ -1,0 +1,13 @@
+# 无干预时会撞上的行人横穿参数。道路结构和脚本见模板。
+template: pedestrian_crossing
+instance: collision
+seed: 7
+ego:
+  speed_mps: 10.0
+target:
+  speed_mps: 1.5
+  lateral_m: 4.0
+trigger:
+  distance_m: 27.0
+end:
+  hard_negative: false

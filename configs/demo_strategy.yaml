@@ -1,0 +1,9 @@
+# 第 1 轮假数据用的策略配置。校验和覆盖本文件原始字节。
+name: aeb_ttc
+version: "0.1.0"
+ttc_warn_s: 2.6
+ttc_partial_s: 1.6
+ttc_full_s: 0.8
+partial_brake: 0.4
+full_brake: 1.0
+max_steer: 0.0

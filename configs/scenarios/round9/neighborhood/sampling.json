@@ -1,0 +1,365 @@
+{
+  "appearance_s": "取源日志里第一次有效 TTC 的时间。现有场景文件只有速度和距离，加密不新增字段，第 9 轮加载器不用改。",
+  "scenes": [
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v10_d14.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 14.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v10_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v10_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v11_d14.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 14.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v11_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v11_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v12_d14.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 14.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v12_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v12_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v10_d14.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 14.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v10_d16.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 16.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v10_d18.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 18.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v11_d14.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 14.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v11_d16.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 16.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v11_d18.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 18.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v12_d14.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 14.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v12_d16.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 16.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\left_avoidable_v12_d18.yaml",
+      "template": "left_avoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 18.0,
+      "source_scene_id": "left_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v10_d14.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 14.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v10_d16.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 16.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v10_d18.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 10.0,
+      "distance_m": 18.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v11_d14.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 14.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v11_d16.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 16.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v11_d18.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 11.0,
+      "distance_m": 18.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v12_d14.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 14.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v12_d16.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 16.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\right_avoidable_v12_d18.yaml",
+      "template": "right_avoidable",
+      "ego_speed_mps": 12.0,
+      "distance_m": 18.0,
+      "source_scene_id": "right_avoidable_v11_d16",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v13_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 13.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v13_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 13.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v13_d20.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 13.0,
+      "distance_m": 20.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v14_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 14.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v14_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 14.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v14_d20.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 14.0,
+      "distance_m": 20.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v15_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 15.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v15_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 15.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v15_d20.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 15.0,
+      "distance_m": 20.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v13_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 13.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v13_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 13.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v13_d20.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 13.0,
+      "distance_m": 20.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v14_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 14.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v14_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 14.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v14_d20.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 14.0,
+      "distance_m": 20.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v15_d16.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 15.0,
+      "distance_m": 16.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v15_d18.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 15.0,
+      "distance_m": 18.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    },
+    {
+      "path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\scenarios\\round9\\neighborhood\\tuning\\both_unavoidable_v15_d20.yaml",
+      "template": "both_unavoidable",
+      "ego_speed_mps": 15.0,
+      "distance_m": 20.0,
+      "source_scene_id": "both_unavoidable_v14_d18",
+      "appearance_s": 0.0
+    }
+  ]
+}

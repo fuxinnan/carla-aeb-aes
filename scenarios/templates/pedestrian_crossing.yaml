@@ -1,0 +1,40 @@
+# 行人横穿的结构。数值在参数实例里，这里不放会碰撞的那一组速度。
+template: pedestrian_crossing
+description: 行人从路侧以固定速度横穿。触发前静止，触发后垂直穿过自车道。
+execution: kinematic
+behavior:
+  ego: hold_initial_speed
+  target: fixed_speed_walk
+trigger:
+  type: distance_to_target
+end_conditions: [collision, stop, timeout]
+map: Town10HD_Opt
+fixed_delta_seconds: 0.05
+timeout_s: 12.0
+stop_speed_mps: 0.2
+render: false
+host: localhost
+port: 2000
+tm_port: 8000
+straight_length_m: 80.0
+sample_step_m: 2.0
+ego_s_m: 8.0
+crossing_s_m: 50.0
+pedestrian_side: left
+ego_blueprint: vehicle.lincoln.mkz_2020
+target_blueprint: walker.pedestrian.0001
+ego_box: {length_m: 4.90, width_m: 2.12, height_m: 1.51}
+target_box: {length_m: 0.50, width_m: 0.50, height_m: 1.80}
+bounds:
+  ego.speed_mps: {min: 1.0, max: 25.0}
+  target.speed_mps: {min: 0.3, max: 3.0}
+  target.lateral_m: {min: 1.5, max: 8.0}
+  trigger.distance_m: {min: 3.0, max: 60.0}
+required_instance:
+  - instance
+  - seed
+  - ego.speed_mps
+  - target.speed_mps
+  - target.lateral_m
+  - trigger.distance_m
+  - end.hard_negative

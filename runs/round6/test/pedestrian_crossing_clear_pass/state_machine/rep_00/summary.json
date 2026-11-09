@@ -1,0 +1,20 @@
+{
+  "run_id": "rep_00",
+  "scene_id": "pedestrian_crossing_clear_pass",
+  "strategy_name": "state_machine",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 2.2155151692269643,
+  "min_ttc_s": 1.484703626584894,
+  "first_trigger_time_s": 1.6500000000000001,
+  "aeb_first_trigger_time_s": 1.6500000000000001,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 3.500000000000014,
+  "speed_drop_mps": 1.5750000000000046,
+  "initial_speed_mps": 10.0,
+  "final_speed_mps": 8.424999999999995,
+  "duration_s": 8.0,
+  "frame_count": 161,
+  "invalid_frame_count": 137,
+  "brake_delay_frames": 1
+}

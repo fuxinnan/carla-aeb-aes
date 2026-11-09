@@ -1,0 +1,7 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "occlusion_reveal", "instance": "v8_d26", "seed": 25, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 8.0}, "target": {"gap_m": 26.0}, "trigger": {"distance_m": 26.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 1.9500000000000002, "detail": {"frame": 39, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.9625000000000025}}
+{"event_type": "aeb_state", "sim_time_s": 3.0, "detail": {"frame": 60, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.0052325581395425}}
+{"event_type": "aeb_state", "sim_time_s": 3.3000000000000003, "detail": {"frame": 66, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.9558823529411846}}
+{"event_type": "aeb_state", "sim_time_s": 3.45, "detail": {"frame": 69, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.1170000000000122}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "blocker_01", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 1.4500000000000002, "detail": {"track_id": "ped_hidden", "frame": 29}}

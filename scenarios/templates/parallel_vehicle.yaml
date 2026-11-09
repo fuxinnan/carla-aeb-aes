@@ -1,0 +1,23 @@
+# 硬负例。相邻车道同速并行，不进入自车道。
+template: parallel_vehicle
+description: 右侧车辆与自车同速，横向距离保持不变。
+execution: kinematic
+behavior:
+  ego: hold_initial_speed
+  target: parallel_same_speed
+trigger:
+  type: distance_to_target
+map: Town10HD_Opt
+fixed_delta_seconds: 0.05
+timeout_s: 8.0
+stop_speed_mps: 0.2
+ego_s_m: 8.0
+straight_length_m: 120.0
+sample_step_m: 2.0
+ego_blueprint: vehicle.lincoln.mkz_2020
+target_blueprint: vehicle.tesla.model3
+ego_box: {length_m: 4.90, width_m: 2.12, height_m: 1.51}
+target_box: {length_m: 4.90, width_m: 2.12, height_m: 1.51}
+lateral_m: 3.6
+lead_extra_m: 18.0
+hard_negative: true

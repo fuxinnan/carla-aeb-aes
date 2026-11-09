@@ -1,0 +1,338 @@
+{
+  "scene_id": "pedestrian_crossing_collision",
+  "config": "configs\\scenarios\\pedestrian_crossing_collision.yaml",
+  "stable": true,
+  "target_spawn_deviation_m": 0.0,
+  "trigger_frames": [
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31
+  ],
+  "collided": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "collision_relative_speed_mps": [
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697,
+    10.061159547853697
+  ],
+  "speed_range_mps": 0.0,
+  "preview": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\scenario_preview.png",
+  "stability": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\stability.png",
+  "replay": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_00\\figures\\pedestrian_crossing_collision_bev.mp4",
+  "runs": [
+    {
+      "index": 0,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_00",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 1,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_01",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 2,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_02",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 3,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_03",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 4,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_04",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 5,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_05",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 6,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_06",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 7,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_07",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 8,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_08",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 9,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_09",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 10,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_10",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 11,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_11",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 12,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_12",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 13,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_13",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 14,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_14",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 15,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_15",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 16,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_16",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 17,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_17",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 18,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_18",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    },
+    {
+      "index": 19,
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round3\\pedestrian_crossing_collision_20261109T050758\\rep_19",
+      "trigger_frame": 31,
+      "collided": true,
+      "collision_relative_speed_mps": 10.061159547853697,
+      "target_spawn": {
+        "x_m": -100.14046478271484,
+        "y_m": 106.82701873779297,
+        "z_m": 0.0,
+        "yaw_rad": 2.689942104317184
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "scene_id": "occlusion_reveal_v10_d18",
+  "strategy_name": "state_machine",
+  "split": "test",
+  "seed": 84,
+  "evaluation": {
+    "split": "test",
+    "used_for_tuning": false
+  }
+}

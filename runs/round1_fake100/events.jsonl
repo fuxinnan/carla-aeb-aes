@@ -1,0 +1,4 @@
+{"event_type": "aeb_warn", "sim_time_s": 1.0, "detail": {"reason": "ttc_below_warn"}}
+{"event_type": "aeb_partial", "sim_time_s": 2.0, "detail": {"reason": "ttc_below_partial"}}
+{"event_type": "aeb_full", "sim_time_s": 3.5, "detail": {"reason": "ttc_below_full"}}
+{"event_type": "aeb_exit", "sim_time_s": 4.5, "detail": {"reason": "threat_cleared"}}

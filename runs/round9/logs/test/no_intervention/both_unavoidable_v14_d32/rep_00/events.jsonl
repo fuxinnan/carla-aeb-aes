@@ -1,0 +1,5 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "both_unavoidable", "instance": "v14_d32", "seed": 99, "split": "test", "ego": {"s_m": 8.0, "speed_mps": 14.0}, "target": {"gap_m": 32.0}, "trigger": {"distance_m": 32.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "collision", "sim_time_s": 1.9500000000000002, "detail": {"frame": 39, "relative_speed_mps": 14.0, "detector": "oriented_box"}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_0", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_1", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_2", "frame": 0}}

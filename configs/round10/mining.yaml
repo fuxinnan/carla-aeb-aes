@@ -1,0 +1,8 @@
+# 难例筛选和线索阈值。只用于从日志里挑案例，不写进策略。
+near_miss_m: 0.5
+state_switch_count: 12
+path_error_m: 0.35
+slow_response_frames: 3
+log_roots:
+  - runs/round9/logs/test
+  - runs/round9/logs/search

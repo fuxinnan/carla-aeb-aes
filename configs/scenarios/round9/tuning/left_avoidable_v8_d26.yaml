@@ -1,0 +1,9 @@
+template: left_avoidable
+instance: v8_d26
+seed: 29
+split: tuning
+ego:
+  speed_mps: 8.0
+distance_m: 26.0
+end:
+  hard_negative: false

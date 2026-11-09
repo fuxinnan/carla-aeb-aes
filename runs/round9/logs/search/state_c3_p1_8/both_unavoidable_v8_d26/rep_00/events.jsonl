@@ -1,0 +1,10 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "both_unavoidable", "instance": "v8_d26", "seed": 37, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 8.0}, "target": {"gap_m": 26.0}, "trigger": {"distance_m": 26.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 0.05, "detail": {"frame": 1, "from": "IDLE", "to": "WARN", "reason": "ttc_below_warn", "ttc_s": 2.5875000000000004}}
+{"event_type": "aeb_state", "sim_time_s": 0.9500000000000001, "detail": {"frame": 19, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.6874999999999991}}
+{"event_type": "aeb_state", "sim_time_s": 2.9000000000000004, "detail": {"frame": 58, "from": "PARTIAL", "to": "EXIT", "reason": "threat_cleared", "ttc_s": 3.3192307692307477}}
+{"event_type": "aeb_state", "sim_time_s": 4.0, "detail": {"frame": 80, "from": "EXIT", "to": "WARN", "reason": "rearmed", "ttc_s": 2.568617021276578}}
+{"event_type": "aeb_state", "sim_time_s": 4.9, "detail": {"frame": 98, "from": "WARN", "to": "PARTIAL", "reason": "ttc_below_partial", "ttc_s": 1.668617021276584}}
+{"event_type": "aeb_state", "sim_time_s": 5.25, "detail": {"frame": 105, "from": "PARTIAL", "to": "EXIT", "reason": "stopped", "ttc_s": null}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_0", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_1", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "block_2", "frame": 0}}

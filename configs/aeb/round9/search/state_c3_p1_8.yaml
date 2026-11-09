@@ -1,0 +1,23 @@
+version: round9-search
+fixed_ttc:
+  ttc_brake_s: 1.4
+  target_decel_mps2: 6.0
+state_machine:
+  confirm_frames: 3
+  min_hold_frames: 5
+  lost_hold_frames: 4
+  clear_frames: 5
+  stop_speed_mps: 0.2
+  ttc_warn_on_s: 2.6
+  ttc_warn_off_s: 3.0
+  ttc_partial_on_s: 1.8
+  ttc_partial_off_s: 2.2
+  ttc_full_on_s: 1.1
+  ttc_full_off_s: 1.4
+  partial_decel_mps2: 3.5
+  full_decel_mps2: 6.0
+actuator:
+  brake_per_decel: 0.125
+  max_brake: 1.0
+  max_decel_mps2: 8.0
+  slew_decel_mps3: 30.0

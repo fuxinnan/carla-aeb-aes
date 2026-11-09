@@ -1,0 +1,16 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "vehicle_cut_in", "instance": "v11_d26", "seed": 23, "split": "tuning", "ego": {"s_m": 8.0, "speed_mps": 11.0}, "target": {"gap_m": 26.0}, "trigger": {"distance_m": 26.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 6.050000000000001, "detail": {"frame": 121, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.983333333333445}}
+{"event_type": "aeb_state", "sim_time_s": 6.25, "detail": {"frame": 125, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.0694444444446047}}
+{"event_type": "aeb_state", "sim_time_s": 6.6000000000000005, "detail": {"frame": 132, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.9722222222224617}}
+{"event_type": "aeb_state", "sim_time_s": 6.7, "detail": {"frame": 134, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.0027777777780595}}
+{"event_type": "aeb_state", "sim_time_s": 6.800000000000001, "detail": {"frame": 136, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.9516666666669689}}
+{"event_type": "aeb_state", "sim_time_s": 6.9, "detail": {"frame": 138, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.0093137254905624}}
+{"event_type": "aeb_state", "sim_time_s": 7.0, "detail": {"frame": 140, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.9708333333337315}}
+{"event_type": "aeb_state", "sim_time_s": 7.1000000000000005, "detail": {"frame": 142, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.0814102564107615}}
+{"event_type": "aeb_state", "sim_time_s": 7.300000000000001, "detail": {"frame": 146, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.9694444444450329}}
+{"event_type": "aeb_state", "sim_time_s": 7.3500000000000005, "detail": {"frame": 147, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.0053030303036843}}
+{"event_type": "aeb_state", "sim_time_s": 7.4, "detail": {"frame": 148, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.9553030303036956}}
+{"event_type": "aeb_state", "sim_time_s": 7.5, "detail": {"frame": 150, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.191666666667595}}
+{"event_type": "aeb_state", "sim_time_s": 7.9, "detail": {"frame": 158, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 0.9583333333345457}}
+{"event_type": "aeb_state", "sim_time_s": 7.95, "detail": {"frame": 159, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.063888888890318}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "cut_01", "frame": 0}}

@@ -1,0 +1,20 @@
+{
+  "run_id": "vehicle_cut_in_v8_d16",
+  "scene_id": "vehicle_cut_in_v8_d16",
+  "strategy_name": "fixed_ttc",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.1293750000001026,
+  "min_ttc_s": 1.1483333333333638,
+  "first_trigger_time_s": 2.35,
+  "aeb_first_trigger_time_s": 2.35,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 4.499999999999993,
+  "speed_drop_mps": 2.9250000000000043,
+  "initial_speed_mps": 8.0,
+  "final_speed_mps": 5.074999999999996,
+  "duration_s": 8.0,
+  "frame_count": 161,
+  "invalid_frame_count": 50,
+  "brake_delay_frames": 1
+}

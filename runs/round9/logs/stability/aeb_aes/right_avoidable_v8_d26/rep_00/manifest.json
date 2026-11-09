@@ -1,0 +1,10 @@
+{
+  "scene_id": "right_avoidable_v8_d26",
+  "strategy_name": "aeb_aes",
+  "split": "tuning",
+  "seed": 33,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

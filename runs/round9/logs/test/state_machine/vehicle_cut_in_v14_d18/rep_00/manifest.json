@@ -1,0 +1,10 @@
+{
+  "scene_id": "vehicle_cut_in_v14_d18",
+  "strategy_name": "state_machine",
+  "split": "test",
+  "seed": 82,
+  "evaluation": {
+    "split": "test",
+    "used_for_tuning": false
+  }
+}

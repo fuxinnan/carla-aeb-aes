@@ -1,0 +1,5 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "vehicle_cut_in", "instance": "v10_d32", "seed": 81, "split": "test", "ego": {"s_m": 8.0, "speed_mps": 10.0}, "target": {"gap_m": 32.0}, "trigger": {"distance_m": 32.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 7.65, "detail": {"frame": 153, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3833333333332043}}
+{"event_type": "aeb_state", "sim_time_s": 7.800000000000001, "detail": {"frame": 156, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.461274509803759}}
+{"event_type": "aeb_state", "sim_time_s": 8.0, "detail": {"frame": 160, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3986559139783061}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "cut_01", "frame": 0}}

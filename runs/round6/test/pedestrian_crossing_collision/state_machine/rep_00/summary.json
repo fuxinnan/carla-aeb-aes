@@ -1,0 +1,20 @@
+{
+  "run_id": "rep_00",
+  "scene_id": "pedestrian_crossing_collision",
+  "strategy_name": "state_machine",
+  "outcome": "collision",
+  "collided": true,
+  "min_distance_m": 0.0,
+  "min_ttc_s": 0.0,
+  "first_trigger_time_s": 3.0500000000000003,
+  "aeb_first_trigger_time_s": 3.0500000000000003,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 1.9500000000000028,
+  "initial_speed_mps": 12.0,
+  "final_speed_mps": 10.049999999999997,
+  "duration_s": 3.5500000000000003,
+  "frame_count": 72,
+  "invalid_frame_count": 61,
+  "brake_delay_frames": 1
+}

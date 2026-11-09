@@ -1,0 +1,20 @@
+{
+  "run_id": "right_avoidable_v8_d26",
+  "scene_id": "right_avoidable_v8_d26",
+  "strategy_name": "fixed_ttc",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.6168750000000784,
+  "min_ttc_s": 2.1410377358490567,
+  "first_trigger_time_s": 0.45,
+  "aeb_first_trigger_time_s": 0.45,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 5.9999999999999964,
+  "speed_drop_mps": 7.725000000000003,
+  "initial_speed_mps": 8.0,
+  "final_speed_mps": 0.274999999999997,
+  "duration_s": 8.0,
+  "frame_count": 161,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": 1
+}

@@ -1,0 +1,21 @@
+# 车道中间和左右两侧都有静止车辆，制动和两条避让轨迹都会碰上。
+template: both_unavoidable
+description: 三辆静止车分别占据中间、左侧和右侧。
+execution: kinematic
+behavior:
+  ego: hold_initial_speed
+  target: stopped_wall
+trigger:
+  type: distance_to_target
+map: Town10HD_Opt
+fixed_delta_seconds: 0.05
+timeout_s: 8.0
+stop_speed_mps: 0.2
+ego_s_m: 8.0
+straight_length_m: 120.0
+sample_step_m: 2.0
+ego_blueprint: vehicle.lincoln.mkz_2020
+target_blueprint: vehicle.tesla.model3
+ego_box: {length_m: 4.90, width_m: 2.12, height_m: 1.51}
+target_box: {length_m: 4.90, width_m: 2.12, height_m: 1.51}
+laterals_m: [0.0, -3.5, 3.5]

@@ -1,0 +1,35 @@
+{
+  "scene_id": "lead_vehicle_brake_collision",
+  "config": "configs\\scenarios\\lead_vehicle_brake_collision.yaml",
+  "stable": true,
+  "target_spawn_deviation_m": 0.0,
+  "trigger_frames": [
+    32
+  ],
+  "collided": [
+    true
+  ],
+  "collision_relative_speed_mps": [
+    3.6999999999999966
+  ],
+  "speed_range_mps": 0.0,
+  "preview": "runs\\round5\\lead_vehicle_brake_collision_state_machine\\scenario_preview.png",
+  "stability": "runs\\round5\\lead_vehicle_brake_collision_state_machine\\stability.png",
+  "replay": "runs\\round5\\lead_vehicle_brake_collision_state_machine\\rep_00\\figures\\lead_vehicle_brake_collision_bev.mp4",
+  "runs": [
+    {
+      "index": 0,
+      "run_dir": "runs\\round5\\lead_vehicle_brake_collision_state_machine\\rep_00",
+      "trigger_frame": 32,
+      "collided": true,
+      "collision_relative_speed_mps": 3.6999999999999966,
+      "brake_delay_frames": 1,
+      "target_spawn": {
+        "x_m": -109.9230728149414,
+        "y_m": 89.6188735961914,
+        "z_m": 0.0,
+        "yaw_rad": 1.3920168580792778
+      }
+    }
+  ]
+}

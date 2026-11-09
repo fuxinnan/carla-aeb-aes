@@ -1,0 +1,61 @@
+{
+  "camera": "bev_only",
+  "camera_reason": "env.json 没有摄像头字段，CARLA 服务端当时也没连接，只做俯视。",
+  "segments": [
+    {
+      "id": "01_no_intervention_collision",
+      "title": "无干预发生碰撞",
+      "scene_id": "pedestrian_crossing_collision",
+      "strategy": "no_intervention",
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round6\\test\\pedestrian_crossing_collision\\no_intervention\\rep_00",
+      "video": "videos/01_no_intervention_collision.mp4",
+      "cover": "videos/01_no_intervention_collision_cover.png",
+      "cause": null,
+      "collided": true
+    },
+    {
+      "id": "02_fixed_ttc_hard_negative",
+      "title": "固定阈值 AEB，硬负例",
+      "scene_id": "pedestrian_crossing_clear_pass",
+      "strategy": "fixed_ttc",
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round6\\test\\pedestrian_crossing_clear_pass\\fixed_ttc\\rep_00",
+      "video": "videos/02_fixed_ttc_hard_negative.mp4",
+      "cover": "videos/02_fixed_ttc_hard_negative_cover.png",
+      "cause": null,
+      "collided": false
+    },
+    {
+      "id": "03_state_machine_avoid",
+      "title": "状态机 AEB 避开碰撞",
+      "scene_id": "pedestrian_crossing_collision",
+      "strategy": "state_machine",
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round6\\tuning\\pedestrian_crossing_collision\\state_machine\\rep_00",
+      "video": "videos/03_state_machine_avoid.mp4",
+      "cover": "videos/03_state_machine_avoid_cover.png",
+      "cause": null,
+      "collided": false
+    },
+    {
+      "id": "04_aeb_aes_avoid",
+      "title": "状态机加 AES 避开碰撞",
+      "scene_id": "left_avoidable_v14_d18",
+      "strategy": "aeb_aes",
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round9\\logs\\test\\aeb_aes\\left_avoidable_v14_d18\\rep_00",
+      "video": "videos/04_aeb_aes_avoid.mp4",
+      "cover": "videos/04_aeb_aes_avoid_cover.png",
+      "cause": null,
+      "collided": false
+    },
+    {
+      "id": "05_late_brake_failure",
+      "title": "失败案例",
+      "scene_id": "left_avoidable_v11_d16",
+      "strategy": "state_machine",
+      "run_dir": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\runs\\round9\\logs\\search\\state_c3_p1_4\\left_avoidable_v11_d16\\rep_00",
+      "video": "videos/05_late_brake_failure.mp4",
+      "cover": "videos/05_late_brake_failure_cover.png",
+      "cause": "晚制动",
+      "collided": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "run_id": "round1_fake100",
+  "scene_id": "demo_ccrs",
+  "strategy_name": "aeb",
+  "strategy_version": "0.1.0",
+  "created_at_utc": "2026-11-09T12:03:38.753061+00:00",
+  "carla_version": null,
+  "python_version": "3.12.16",
+  "map": "Town03",
+  "fixed_delta_seconds": 0.05,
+  "synchronous_mode": true,
+  "physics_substep": {
+    "substepping": true,
+    "max_substep_delta_time_s": 0.01,
+    "max_substeps": 10
+  },
+  "seeds": {
+    "python": 1,
+    "numpy": 2,
+    "traffic_manager": 3
+  },
+  "weather": {
+    "cloudiness": 10.0,
+    "precipitation": 0.0,
+    "sun_altitude_angle": 45.0,
+    "fog_density": 0.0
+  },
+  "strategy_config": {
+    "name": "aeb_ttc",
+    "version": "0.1.0",
+    "ttc_warn_s": 2.6,
+    "ttc_partial_s": 1.6,
+    "ttc_full_s": 0.8,
+    "partial_brake": 0.4,
+    "full_brake": 1.0,
+    "max_steer": 0.0
+  },
+  "strategy_config_path": "D:\\CARLA\\基于CARLA的AEBAES主动安全系统与闭环评测平台\\configs\\demo_strategy.yaml",
+  "strategy_config_sha256": "bcbd117977cc84e82e110047ebc3a907c8a8c78b0f5cae453e093012734ef86b",
+  "code_version": null
+}

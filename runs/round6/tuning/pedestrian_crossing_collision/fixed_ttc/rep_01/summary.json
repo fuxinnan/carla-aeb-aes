@@ -1,0 +1,20 @@
+{
+  "run_id": "rep_01",
+  "scene_id": "pedestrian_crossing_collision",
+  "strategy_name": "fixed_ttc",
+  "outcome": "avoided",
+  "collided": false,
+  "min_distance_m": 0.4829551624849417,
+  "min_ttc_s": 0.7625516878292581,
+  "first_trigger_time_s": 2.85,
+  "aeb_first_trigger_time_s": 2.85,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 8.399999999999999,
+  "initial_speed_mps": 10.0,
+  "final_speed_mps": 1.6000000000000008,
+  "duration_s": 12.0,
+  "frame_count": 241,
+  "invalid_frame_count": 209,
+  "brake_delay_frames": 1
+}

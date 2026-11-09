@@ -1,0 +1,10 @@
+{
+  "scene_id": "left_avoidable_v8_d16",
+  "strategy_name": "fixed_ttc",
+  "split": "tuning",
+  "seed": 28,
+  "evaluation": {
+    "split": "tuning",
+    "used_for_tuning": true
+  }
+}

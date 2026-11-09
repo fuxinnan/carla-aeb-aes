@@ -1,0 +1,40 @@
+# 前车制动的结构。触发后按实例里的固定减速度减速，不使用交通管理器。
+template: lead_vehicle_brake
+description: 同一车道的前车先匀速，触发后以固定减速度制动。
+execution: kinematic
+behavior:
+  ego: hold_initial_speed
+  target: fixed_deceleration
+trigger:
+  type: distance_to_target
+end_conditions: [collision, stop, timeout]
+map: Town10HD_Opt
+fixed_delta_seconds: 0.05
+timeout_s: 12.0
+stop_speed_mps: 0.2
+render: false
+host: localhost
+port: 2000
+tm_port: 8000
+straight_length_m: 80.0
+sample_step_m: 2.0
+ego_s_m: 8.0
+ego_blueprint: vehicle.lincoln.mkz_2020
+target_blueprint: vehicle.tesla.model3
+ego_box: {length_m: 4.90, width_m: 2.12, height_m: 1.51}
+target_box: {length_m: 4.90, width_m: 2.12, height_m: 1.51}
+bounds:
+  ego.speed_mps: {min: 1.0, max: 30.0}
+  target.speed_mps: {min: 0.0, max: 30.0}
+  target.decel_mps2: {min: 0.5, max: 10.0}
+  target.gap_m: {min: 8.0, max: 60.0}
+  trigger.distance_m: {min: 3.0, max: 40.0}
+required_instance:
+  - instance
+  - seed
+  - ego.speed_mps
+  - target.speed_mps
+  - target.decel_mps2
+  - target.gap_m
+  - trigger.distance_m
+  - end.hard_negative

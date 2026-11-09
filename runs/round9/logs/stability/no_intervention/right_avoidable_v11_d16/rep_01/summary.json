@@ -1,0 +1,20 @@
+{
+  "run_id": "right_avoidable_v11_d16",
+  "scene_id": "right_avoidable_v11_d16",
+  "strategy_name": "no_intervention",
+  "outcome": "collision",
+  "collided": true,
+  "min_distance_m": 0.0,
+  "min_ttc_s": 0.0,
+  "first_trigger_time_s": null,
+  "aeb_first_trigger_time_s": null,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 0.0,
+  "speed_drop_mps": null,
+  "initial_speed_mps": 11.0,
+  "final_speed_mps": 11.0,
+  "duration_s": 1.05,
+  "frame_count": 22,
+  "invalid_frame_count": 0,
+  "brake_delay_frames": null
+}

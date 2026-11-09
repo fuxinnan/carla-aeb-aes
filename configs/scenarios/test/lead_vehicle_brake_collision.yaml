@@ -1,0 +1,14 @@
+# 测试集。间隙和触发距离与调参集不同。
+template: lead_vehicle_brake
+instance: collision
+seed: 11
+ego:
+  speed_mps: 12.0
+target:
+  speed_mps: 8.0
+  decel_mps2: 3.0
+  gap_m: 28.0
+trigger:
+  distance_m: 16.0
+end:
+  hard_negative: false

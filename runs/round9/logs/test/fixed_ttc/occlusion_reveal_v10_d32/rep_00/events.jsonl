@@ -1,0 +1,13 @@
+{"event_type": "scenario_spec", "sim_time_s": 0.0, "detail": {"template": "occlusion_reveal", "instance": "v10_d32", "seed": 85, "split": "test", "ego": {"s_m": 8.0, "speed_mps": 10.0}, "target": {"gap_m": 32.0}, "trigger": {"distance_m": 32.0}, "end": {"hard_negative": false, "timeout_s": 8.0}}}
+{"event_type": "aeb_state", "sim_time_s": 1.55, "detail": {"frame": 31, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3800000000000001}}
+{"event_type": "aeb_state", "sim_time_s": 2.5500000000000003, "detail": {"frame": 51, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4328651685393257}}
+{"event_type": "aeb_state", "sim_time_s": 2.75, "detail": {"frame": 55, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3874999999999993}}
+{"event_type": "aeb_state", "sim_time_s": 2.9000000000000004, "detail": {"frame": 58, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.401760563380281}}
+{"event_type": "aeb_state", "sim_time_s": 3.0, "detail": {"frame": 60, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3937969924812017}}
+{"event_type": "aeb_state", "sim_time_s": 3.0500000000000003, "detail": {"frame": 61, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.408464566929132}}
+{"event_type": "aeb_state", "sim_time_s": 3.1, "detail": {"frame": 62, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.391935483870966}}
+{"event_type": "aeb_state", "sim_time_s": 3.1500000000000004, "detail": {"frame": 63, "from": "FULL", "to": "IDLE", "reason": "ttc_above_threshold", "ttc_s": 1.4114406779661008}}
+{"event_type": "aeb_state", "sim_time_s": 3.2, "detail": {"frame": 64, "from": "IDLE", "to": "FULL", "reason": "ttc_below_threshold", "ttc_s": 1.3976086956521723}}
+{"event_type": "aeb_state", "sim_time_s": 3.25, "detail": {"frame": 65, "from": "FULL", "to": "IDLE", "reason": "ttc_unavailable", "ttc_s": null}}
+{"event_type": "first_seen", "sim_time_s": 0.0, "detail": {"track_id": "blocker_01", "frame": 0}}
+{"event_type": "first_seen", "sim_time_s": 1.4500000000000002, "detail": {"track_id": "ped_hidden", "frame": 29}}

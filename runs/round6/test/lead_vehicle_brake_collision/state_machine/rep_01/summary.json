@@ -1,0 +1,20 @@
+{
+  "run_id": "rep_01",
+  "scene_id": "lead_vehicle_brake_collision",
+  "strategy_name": "state_machine",
+  "outcome": "collision",
+  "collided": true,
+  "min_distance_m": 0.0,
+  "min_ttc_s": 0.0,
+  "first_trigger_time_s": 3.75,
+  "aeb_first_trigger_time_s": 3.75,
+  "aes_first_trigger_time_s": null,
+  "peak_decel_mps2": 6.000000000000014,
+  "speed_drop_mps": 7.350000000000005,
+  "initial_speed_mps": 12.0,
+  "final_speed_mps": 4.649999999999995,
+  "duration_s": 5.15,
+  "frame_count": 104,
+  "invalid_frame_count": 75,
+  "brake_delay_frames": 1
+}
